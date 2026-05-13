@@ -1,0 +1,180 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f4f7fb;
+}
+
+
+/* NAVBAR */
+
+nav{
+
+  background:#2563eb;
+
+  color:white;
+
+  padding:15px 30px;
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+}
+
+
+/* USER SECTION */
+
+.user-section{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:15px;
+}
+
+
+/* PROFILE BUTTON */
+
+.profile{
+
+  cursor:pointer;
+
+  background:white;
+
+  color:black;
+
+  padding:8px 15px;
+
+  border-radius:20px;
+
+  font-weight:bold;
+}
+
+
+/* PROFILE BOX */
+
+.profile-box{
+
+  position:absolute;
+
+  top:70px;
+
+  right:20px;
+
+  width:250px;
+
+  background:white;
+
+  padding:20px;
+
+  border-radius:10px;
+
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+
+  display:none;
+}
+
+.profile-box h3{
+  margin-top:0;
+}
+
+
+/* MAIN CONTAINER */
+
+.container{
+
+  width:90%;
+
+  max-width:600px;
+
+  margin:auto;
+
+  margin-top:30px;
+}
+
+
+/* AUTH PAGES */
+
+.auth-container{
+
+  width:350px;
+
+  background:white;
+
+  padding:30px;
+
+  margin:auto;
+
+  margin-top:100px;
+
+  border-radius:10px;
+
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+
+/* INPUTS */
+
+input,
+select{
+
+  width:100%;
+
+  padding:12px;
+
+  margin-top:10px;
+
+  border:1px solid #ddd;
+
+  border-radius:5px;
+}
+
+
+/* BUTTONS */
+
+button{
+
+  width:100%;
+
+  padding:12px;
+
+  margin-top:10px;
+
+  background:#2563eb;
+
+  color:white;
+
+  border:none;
+
+  border-radius:5px;
+
+  cursor:pointer;
+}
+
+
+/* TASK CARD */
+
+.task-card{
+
+  background:white;
+
+  padding:20px;
+
+  margin-top:20px;
+
+  border-radius:10px;
+
+  box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+
+/* COMPLETED TASK */
+
+.completed{
+
+  text-decoration:line-through;
+
+  color:gray;
+}
